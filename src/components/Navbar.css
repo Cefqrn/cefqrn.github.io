@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  align-items: stretch;
+  margin: 0;
+  width: 100vw;
+  height: 2.5em;
+  background-color: #222;
+}
+
+.navbar * {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar .title {
+  padding: 0 1em;
+  color: #fff;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.navbar .navlink {
+  padding: 0 2em;
+  color: #ddd;
+  font-weight: bold;
+}
+
+.navbar .active {
+  background-color: #444 !important;
+}
+
+.navbar .navlink:hover {
+  background-color: #333;
+}
